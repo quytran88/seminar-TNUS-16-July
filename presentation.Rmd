@@ -76,3 +76,86 @@ For more information, click [here](D:/Short Course Using R\Writing paper_Book_Pu
 # Making Poster for presentation
 
 # Making the scientific paper
+## Scientific Paper
+Bài báo khoa học là bản báo cáo kết quả nghiên cứu của một người hay một nhóm nào đó. Bài báo khoa học được đăng tải phải có 5 bước:    
+
+  – Lựa chọn chủ đề nghiên cứu phù hợp
+
+  – Thiết kế nghiên cứu
+
+  – Thu thập số liệu
+
+  – Phân tích số liệu
+
+  – Trình bày kết quả
+  
+Phương pháp viết bài báo khoa học gồm 4 phần chính (theo chuẩn IMRAD):
+  
+  – Giới thiệu: I (Introduction) nêu vấn đề đã được chọn lựa để nghiên cứu
+
+  – Phương pháp: M (Method) sử dụng phương pháp nào và tiến hành ra sao?
+
+  – Kết quả: R (Result) phát hiện gì từ việc nghiên cứu.
+
+  – Và: A (And)
+
+  – Bàn luận: D (Discusion) ý nghĩa của những phát hiện từ nghiên cứu.
+  
+\newpage
+# Making the scientific paper
+## Scientific Paper
+<center>
+![Scientific paper](C:/Users\Admin\OneDrive\Desktop\Seminar 12 July\Presentation-TNUS-16-July-2021\seminar-TNUS-16-July\paper.jpg)
+
+</center>
+
+## How to write the scientific in Rmarkdown
+Trước tiên, xem qua một format ngắn của một bài báo cáo: 
+
+1. Bài báo cáo [1](C:/Users\Admin\OneDrive\Desktop\Seminar 12 July\Presentation-TNUS-16-July-2021\seminar-TNUS-16-July\paper.pdf)
+
+2. Bài báo cáo [2](D:/Short Course Using R\Writing paper_Book_Publish\Paper\Report.pdf)
+
+
+# LaTex
+
+## Sơ lược về LaTex
+
+$LaTex$ là gì:
+
+  - Là 1 ngôn ngữ định dạng (document markup language) giống như Word, Powerpoint ở chỗ là đều cho ra những văn bản được định dạng theo mong muốn của người sử dụng nhưng có sự khác biệt lớn. Word thì gõ chữ cái và sử dụng công cụ đồ hoạ để thực hiện việc định dạng văn bản, còn LaTex là "lập trình" ra văn bản.
+
+  - Tiền thân là TeX, một ngôn ngữ định dạng do Donald Knuth phát minh, rất khó sử dụng.
+
+  - LaTeX được phát minh bởi Leslie Lamport, dựa trên TeX nhưng dễ sử dụng hơn rất nhiều. Cho ra chất lượng bản in cực cao cùng cấu trúc văn bản rất logic và đồng bộ.
+
+  - Tự động hóa rất nhiều so với làm bằng tay của Word.
+  
+Có thể sử dụng 1 trong các trình soạn thảo phổ biến như:
+
+  - MiKTeX (Bundle) (Windows)
+  - Texmaker (Windows, Mac, Linux)
+  - Overleaf (Collaborative Online Editor)
+
+## Latex và Rmarkdown
+Nội dung này sẽ trình bày một ví dụ ngắn gọn về $LaTex$:
+Trước tiên công thức phải được đặt giữa cặp dấu: $Formula$ theo mục đích sử dụng. Ví dụ, chúng ta gõ: A=x+1 thông thường, còn đây là $LaTex$, $A=x+1$. Còn nếu chúng ta gõ: $$A=x+1$$ thì công thức tự động xuống dòng.
+
+Nếu muốn gõ phân số: $\frac{a}{b};\frac{x+1}{y-1}$
+
+Gõ số mũ: $a_{n+1} ;a_n+1; z^{p+q};z^p+q$
+
+Gõ giới hạn: $\lim \dfrac{1}{x}=0; \lim\limits_{x\to x_0} \dfrac{f(x)-f(x_0)}{x-x_0}$
+
+Gõ tích phân: $\int\limits_{1}^{2} x^2+x+1$
+
+# Thực hành viết trên Rmarkdown
+
+Click [here](D:/Short Course Using R\Writing paper_Book_Publish\Paper\paper.Rmd) to open .Rmd file in Rmarkdown
+
+
+
+
+
+
+
