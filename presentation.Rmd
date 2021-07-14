@@ -1,0 +1,63 @@
+---
+title:  "Make reports and scientific paper in Markdown"
+subtitle: "Library xaringan and pagedown"
+author: "Tran Quang Quy"
+institute: "Department of Computer Science and Technology"
+date: "12 July 2021"
+output:
+  ioslides_presentation:
+    logo: logo.png
+    css: style.css
+    widescreen: true
+    smaller: true
+    transition: slower
+---
+
+
+```{r setup, include=FALSE}
+```
+
+# Writing e-book and print book
+
+## Library xaringan
+Sharingan là một trong 3 nhãn lực hùng mạnh nhất thế giới Naruto,đây là đôi mắt tạo cho những fan ruột của bộ truyện tranh này rất nhiều cảm hứng tìm hiểu và đam mê sở hữu. Con mắt Tả Luân Nhãn (Sharingan) không phải bẩm sinh mà có; thay vào đó, nó sẽ xuất hiện khi người đó bị đưa vào tình huống đe dọa đến tính mạng hoặc chứng kiến cảnh tượng đau lòng như thấy người thân của mình hi sinh. 
+
+Trong Markdown đây là một gói thư viện dựa trên nền tảng JavaScript, giúp người lập trình viên có thể thao tác và tạo ra các giao diện khác nhau trên nền website, HTML..Tác giả của gói này Yihui Xie, là một người rất thích truyện tranh của Nhật Bản.
+
+<center>
+![Xaringan](C:/Users\Admin\OneDrive\Desktop\Seminar 12 July\Presentation-TNUS-16-July-2021\seminar-TNUS-16-July\xaringan.png)
+
+</center>
+
+# Yihui Xie
+
+## Tác giả
+Yihui Xie (tiếng Trung: 谢益辉) là một nhà thống kê và nhà khoa học dữ liệu người Trung Quốc. Anh là tác giả chính của gói Knitr mã nguồn mở dùng để phân tích dữ liệu bằng ngôn ngữ lập trình R, và cũng đã viết cuốn sách Tài liệu động với R và Knitr. Anh ấy làm kỹ sư phần mềm cho RStudio. 
+
+Từ năm 2013, Yihui Xie làm thiết kế lập trình cho RStudio IDE. Anh đã đóng góp khá lớn vào công việc thiết kế nghiên cứu cách trình bày **Reproducible Research** - Nghiên cứu khoa học khả lặp.
+
+<center>
+![Yihui Xie](C:/Users\Admin\OneDrive\Desktop\Seminar 12 July\Presentation-TNUS-16-July-2021\seminar-TNUS-16-July\Yihui Xie.jpg)
+
+</center>
+
+# Reproducible Research
+
+## Nội dung nghiên cứu khả lặp
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**"Nghiên cứu khoa học khả lặp"** - reproducible research đang là xu thế mới của giới khoa học và những package sẽ giúp người nghiên cứu khoa học hoàn toàn có thể viết báo cáo cho riêng mình.**“Nghiên cứu khoa học khả lặp”** là loại nghiên cứu khoa học không chỉ có báo cáo kết quả nghiên cứu mà còn bao gồm đầy đủ các bước thực hiện, đồng thời công bố các thông tin cần thiết (dữ liệu, thuật toán sử dụng,…) để người khác có thể tiến hành lại nghiên cứu nhằm xác nhận tính đúng đắn và mở rộng nghiên cứu dựa trên nền tảng nghiên cứu cũ. Ở đây “reproducible” hay “reproducibility” mang nghĩa có khả năng lặp lại, có khả năng thực hiện lại nghiên cứu đã được công bố.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sử dụng Rmarkdown và knitr là sự lựa chọn tối ưu cho xu hướng "reproducible research" này. Các bước tuần tự (sequence) đưa ra kết quả dựa trên YAML metadata, code chunks, text nhằm đưa ra một quá trình từ đầu từ chạy code, hiển thị dữ liệu, show kết quả và cuối cùng là report dưới nhiều dạng như beamer_presentation, ioslides_presentation, revealjs::revealjs_presentation...
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quy trình của Rmarkdown khá đơn giản nhưng lại cung cấp một quy trình khá đầy đủ giúp người nghiên cứu có thể cảm nhận từng bước xây dựng, giải quyết và cụ thể hóa đưa ra kết quả của bài toán. Từ đó có thể nghiên cứu, phát triển sâu hơn các nội dung nghiên cứu tiếp theo.
+
+## Process of RPRS
+<center>
+![The Reporducible Research](C:/Users\Admin\OneDrive\Desktop\Seminar 12 July\Presentation-TNUS-16-July-2021\seminar-TNUS-16-July\rpr.jpg)
+
+</center>
+
+# Writing e-book with pagedown
+
+Click [here](C:/Users\Admin\OneDrive\Desktop\Seminar 12 July\Presentation-TNUS-16-July-2021\seminar-TNUS-16-July\Step to write a e-book.pdf) for more information
+
