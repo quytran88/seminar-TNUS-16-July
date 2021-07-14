@@ -61,3 +61,18 @@ Từ năm 2013, Yihui Xie làm thiết kế lập trình cho RStudio IDE. Anh đ
 
 Click [here](C:/Users\Admin\OneDrive\Desktop\Seminar 12 July\Presentation-TNUS-16-July-2021\seminar-TNUS-16-July\Step to write a e-book.pdf) for more information
 
+# Making the Business Card
+
+## Business Card
+
+For more information, click [here](D:/Short Course Using R\Writing paper_Book_Publish\Book+Business Card+CV Resume\Business_card\Business_Card.html)
+
+# Making the CV Resume
+
+## Personal CV to apply for any purposes
+
+For more information, click [here](D:/Short Course Using R\Writing paper_Book_Publish\Book+Business Card+CV Resume\Make CV Resume\CV.html)
+
+# Making Poster for presentation
+
+# Making the scientific paper
